@@ -13,6 +13,7 @@
 		CB273BBC1B7179D800B4DF09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB273BBB1B7179D800B4DF09 /* Images.xcassets */; };
 		CB273BBF1B7179D800B4DF09 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB273BBD1B7179D800B4DF09 /* LaunchScreen.xib */; };
 		CB273BCB1B7179D800B4DF09 /* beerioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB273BCA1B7179D800B4DF09 /* beerioTests.swift */; };
+		CB273BD51B71880600B4DF09 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB273BD41B71880600B4DF09 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		CB273BC41B7179D800B4DF09 /* beerioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = beerioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB273BC91B7179D800B4DF09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB273BCA1B7179D800B4DF09 /* beerioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beerioTests.swift; sourceTree = "<group>"; };
+		CB273BD41B71880600B4DF09 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = "../../../Downloads/SwiftyJSON-master/Source/SwiftyJSON.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		CB273BB11B7179D800B4DF09 /* beerio */ = {
 			isa = PBXGroup;
 			children = (
+				CB273BD41B71880600B4DF09 /* SwiftyJSON.swift */,
 				CB273BB41B7179D800B4DF09 /* AppDelegate.swift */,
 				CB273BB61B7179D800B4DF09 /* ViewController.swift */,
 				CB273BB81B7179D800B4DF09 /* Main.storyboard */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB273BD51B71880600B4DF09 /* SwiftyJSON.swift in Sources */,
 				CB273BB71B7179D800B4DF09 /* ViewController.swift in Sources */,
 				CB273BB51B7179D800B4DF09 /* AppDelegate.swift in Sources */,
 			);
